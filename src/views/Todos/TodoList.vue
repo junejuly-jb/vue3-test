@@ -6,4 +6,7 @@
 </script>
 <template>
     <div v-for="(todo, index) in todos">{{todo.id}}. {{todo.task}} <button @click="() => emits('removeTodo', todo.id)">remove</button></div>
+    <div v-for="(todo, index) in todos">{{todo.id}}. {{todo.task}} <button @click="() => emits('removeTodo', todo.id)">remove</button></div>
+    <div v-for="(todo, index) in todos">{{todo.id}}. {{todo.task}} <button @click="() => emits('removeTodo', todo.id)">remove</button></div>
+    <div v-for="(todo, index) in todos">{{todo.id}}. {{todo.task}} <button @click="() => emits('removeTodo', todo.id)">remove</button></div>
 </template>
